@@ -1,5 +1,4 @@
 using System;
-using System.Security.Cryptography.X509Certificates;
 
 class Entry
 
@@ -13,5 +12,10 @@ class Entry
         _prompt = prompt;
         _response = response;
         _dayEntry = date;
+    }
+
+    public override string ToString()
+    {
+        return $"Date: {_dayEntry}\nPrompt: {_prompt}\nResponse: {_response}\n";
     }
 }
