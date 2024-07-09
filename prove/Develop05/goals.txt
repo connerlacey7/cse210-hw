@@ -1,0 +1,4 @@
+1200
+SimpleGoal|Run a marathon|1000|True
+DailyGoal|Read scriptures|100|False
+ChecklistGoal|Attend temple|50|False|2|10|500
